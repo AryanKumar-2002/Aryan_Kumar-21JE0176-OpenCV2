@@ -46,7 +46,7 @@ for i in range(len(squares)):
     # cv.imshow ("Rotated, cropped, resized, padded, rerotated, pasted", image)
     # if cv.waitKey(0) == ord("q"): cv.destroyAllWindows()
 
-mask.showImage()
-cv.imshow("Final.jpg", image)
-if cv.waitKey(0) == ord("q"): cv.destroyAllWindows()
-# cv.imwrite("Final.jpg", image)
+# mask.showImage()
+# cv.imshow("Final.jpg", image)
+# if cv.waitKey(0) == ord("q"): cv.destroyAllWindows()
+cv.imwrite("Final.jpg", image)
